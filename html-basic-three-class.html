@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
+
+    <title>Document</title>
+
+    <style>
+      table,
+      td,
+      tr {
+        border: 1px solid rgb(211, 194, 194);
+        color: yellow;
+        border-collapse: collapse;
+        caption-side: bottom;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!--row span & column span-->
+      <tr>
+        <td colspan="2">month</td>
+      </tr>
+      <tr>
+        <td>jan</td>
+        <td rowspan="2">100</td>
+      </tr>
+      <tr>
+        <td>feb</td>
+      </tr>
+      <tr>
+        <td>mar</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <td>total</td>
+        <td>600</td>
+      </tr>
+    </table>
+
+    <hr color="green" />
+    <hr />
+    <table>
+      <colgroup>
+        <col span="2" style="background-color: rgb(216, 50, 50)" />
+      </colgroup>
+      <caption>
+        name
+      </caption>
+      <tr>
+        <td colspan="2" align="center">abcd</td>
+        <td>abcd</td>
+      </tr>
+      <tr>
+        <td>abcd</td>
+        <td rowspan="2" align="center">abcd</td>
+        <td>abcd</td>
+      </tr>
+      <tr>
+        <td>abcd</td>
+        <td>abcd</td>
+      </tr>
+      <tr>
+        <td>abcd</td>
+
+        <td
+          rowspan="2"
+          align="center"
+          colspan="2"
+          align="=center"
+          bgcolor="red"
+        >
+          abcd
+        </td>
+      </tr>
+
+      <tr>
+        <td>abcd</td>
+      </tr>
+    </table>
+    <hr />
+    <hr />
+
+    <table id="my">
+      <caption>
+        colgroup
+      </caption>
+      <colgroup>
+    <col span="1">
+   <!-- <col span="3" style="background-color: blueviolet;" >  -->
+   <col span="3" style="background-color: blueviolet;">
+
+
+      </colgroup>
+      <tr>
+        <td>col 1</td>
+        <td>col 2</td>
+        <td>col 3</td>
+        <td>col 4</td>
+        <td>col 5</td>
+      </tr>
+      <tr style="background-color: brown;">
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+    </table>
+  </body>
+</html>
