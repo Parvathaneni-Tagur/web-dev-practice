@@ -1,0 +1,26 @@
+.box {
+  max-width: 500px;
+  max-height: 500px;
+  border: 1px solid black;
+  overflow: scroll;
+
+
+  /* overflow when the content is more
+content using lorem 
+*/
+}
+
+.minh{
+    border: 2px solid black;
+    margin: 10px;
+    min-height: 100px;
+    min-width: 100px;
+    /*if the content is less than min heigth then it will fit if not then it will grow by itself*/
+}
+#overflow{
+    height: 50px;
+    border: 2px solid black;
+    overflow: hidden;
+
+
+}

@@ -1,0 +1,6 @@
+.india {
+  border: 1px solid black;
+  height: 100px;
+  width: 200px;
+  background-image: linear-gradient(orange 25%, white 50%, green 25%);
+}

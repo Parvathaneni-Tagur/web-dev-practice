@@ -1,0 +1,25 @@
+.box {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  
+.one {
+
+    position: absolute;
+    top:0;
+    left: 0;
+  }
+  .two {
+      position: absolute;
+      top:0;
+      right:0;
+  } 
+}
+.three {
+  text-align: center;
+}
+.four {
+    float: right;
+    margin: 1px;
+    padding-top: 40px;
+}
